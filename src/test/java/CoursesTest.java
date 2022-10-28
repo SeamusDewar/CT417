@@ -65,7 +65,7 @@ public class CoursesTest{
         assertEquals("Computer Science", testCourse.getName());
         assertNotNull(testCourse.getModules(), "testModulesList=Null");
         assertNotNull(testCourse.getStudents(), "testStudentsList=Null");
-        assertNotNull(testCourse.getStartDate(), "startDate=Null");
-        assertNotNull(testCourse.getEndDate(),"endDate=Null");
+        assertTrue((testCourse.getStartDate()) == (startDate));
+        assertTrue((testCourse.getEndDate()) == (endDate));
     }
 }

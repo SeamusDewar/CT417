@@ -5,7 +5,6 @@ public class Module {
     private String id;
     private ArrayList<Student> students;
     private Lecturer lecturer;
-
     private ArrayList<CourseProgramme> coursesAssociated;
 
     public Module(String name, String id, ArrayList students, Lecturer lecturer) {

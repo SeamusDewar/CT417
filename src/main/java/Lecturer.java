@@ -31,12 +31,12 @@ public class Lecturer {
         this.DOB = DOB;
     }
 
-    public ArrayList<Module> getModulesReg() {
+    public ArrayList<Module> getModulesTeach() {
         return modulesTeach;
     }
 
-    public void setModulesReg(ArrayList<Module> modulesReg) {
-        this.modulesTeach = modulesReg;
+    public void setModulesTeach(ArrayList<Module> modulesTeach) {
+        this.modulesTeach = modulesTeach;
     }
 
     public int getAge() {
