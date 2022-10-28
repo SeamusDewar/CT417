@@ -17,7 +17,7 @@ public class CoursesTest{
         assertEquals("26/06/2001", testStudent.getDOB());
         assertEquals(21, testStudent.getAge());
         assertEquals(19471876, testStudent.getId());
-        assertEquals("Seamus Dewar21", testStudent.getUsername());
+        assertEquals("SeamusDewar21", testStudent.getUsername());
     }
 
     @Test
@@ -28,7 +28,7 @@ public class CoursesTest{
         assertEquals("17/05/1975", testLecturer.getDOB());
         assertEquals(47, testLecturer.getAge());
         assertEquals(752983579, testLecturer.getId());
-        assertEquals("John McClean47", testLecturer.getUsername());
+        assertEquals("JohnMcClean47", testLecturer.getUsername());
     }
 
     @Test
@@ -57,6 +57,7 @@ public class CoursesTest{
 
         Module testModule = new Module("Professional Skills", "CT123", testStudentsList, testLecturer);
         ArrayList<Module> testModulesList = new ArrayList<>();
+        testModulesList.add(testModule);
 
         DateTime startDate = new DateTime("2022-09-01");
         DateTime endDate = new DateTime("2026-06-01");
